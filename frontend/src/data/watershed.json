@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "description": "Kasari River Basin — Kolhapur District, Maharashtra. Approximate basin polygon for demo; replace with PostGIS / QGIS-exported Shapefile → GeoJSON when available. Approximate centroid 16.69°N, 74.23°E.",
+    "name": "Kasari River Basin (Demo Polygon)",
+    "area_ha": 62768.7,
+    "area_km2": 627.687,
+    "source_river": "Kasari — tributary of Panchganga",
+    "source_location": "Gajapur village, Shahuwadi taluka (Sahyadri range)",
+    "confluence": "Prayag Sangam, Padali Bk. village, Karvir taluka (16.7344°N, 74.1758°E)",
+    "district": "Kolhapur, Maharashtra",
+    "villages": "Wadegaon, Pabal, Kanhersar, Kasari, Kivale, Bhajgaon, Nandivali, Rajapur, Gajapur, Shahapur, Padali, Karvir",
+    "gis_status": "demo — not field verified; use QGIS export for production."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kasari River Basin",
+        "watershed_id": "WS-KASARI-001",
+        "river": "Kasari",
+        "district": "Kolhapur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [74.040, 16.900],
+            [74.085, 16.895],
+            [74.135, 16.880],
+            [74.185, 16.855],
+            [74.235, 16.820],
+            [74.275, 16.780],
+            [74.305, 16.735],
+            [74.315, 16.685],
+            [74.300, 16.635],
+            [74.270, 16.595],
+            [74.230, 16.565],
+            [74.180, 16.545],
+            [74.125, 16.540],
+            [74.075, 16.555],
+            [74.035, 16.585],
+            [74.005, 16.625],
+            [73.990, 16.675],
+            [73.995, 16.725],
+            [74.015, 16.775],
+            [74.040, 16.900]
+          ]
+        ]
+      }
+    }
+  ]
+}

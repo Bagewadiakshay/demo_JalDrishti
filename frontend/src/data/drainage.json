@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "description": "DEMONSTRATION DATA: Synthetic drainage lines for sample watershed. Not actual survey data.",
+    "source": "Generated for prototype demonstration"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "order": 1, "name": "Main Stream 1" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.830, 19.094],
+          [73.842, 19.088],
+          [73.852, 19.079],
+          [73.860, 19.070],
+          [73.868, 19.060],
+          [73.870, 19.048]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "order": 2, "name": "Tributary A" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.840, 19.101],
+          [73.848, 19.093],
+          [73.852, 19.079]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "order": 2, "name": "Tributary B" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.870, 19.095],
+          [73.866, 19.085],
+          [73.860, 19.070]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "order": 3, "name": "Minor Drain 1" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.828, 19.075],
+          [73.836, 19.072],
+          [73.842, 19.068],
+          [73.852, 19.079]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "order": 3, "name": "Minor Drain 2" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.882, 19.072],
+          [73.876, 19.066],
+          [73.868, 19.060]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "order": 3, "name": "Minor Drain 3" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.832, 19.044],
+          [73.842, 19.052],
+          [73.852, 19.056],
+          [73.860, 19.054],
+          [73.868, 19.060]
+        ]
+      }
+    }
+  ]
+}
