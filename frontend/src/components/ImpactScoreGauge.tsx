@@ -88,7 +88,7 @@ export default function ImpactScoreGauge({ breakdown }: Props) {
       </div>
 
       <div className="text-[11px] text-slate-500 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 leading-relaxed">
-        <strong>Prototype Impact Score.</strong> Formula: 30% Veg. + 25% Water + 15% Land + 15% Structure + 10% Hydro + 5% Rainfall.
+        <strong> Impact Score.</strong> Formula: 30% Veg. + 25% Water + 15% Land + 15% Structure + 10% Hydro + 5% Rainfall.
         Not an official government scoring method.
       </div>
     </div>
